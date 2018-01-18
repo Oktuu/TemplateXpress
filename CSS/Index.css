@@ -14,6 +14,10 @@ header {
 	justify-content: space-between;
 	box-shadow: 0 10px 0px 0 orange;
 }
+a:hover { 
+transition: all 0.5s; 
+color: #FF9901;
+}
 header ul {
 list-style: none;
 	display: flex;
@@ -109,13 +113,11 @@ nav a {
 nav a:hover {
 	color: #dd8f00;
 }
-#hugeArticle {
+.hugeArticle {
 	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 30px;
-}
-#radio {W
 }
 .hugeArticleImg {
 	margin-right: 5px;
@@ -140,7 +142,7 @@ text-decoration: none;
 	color:  #dd8f00;
 	font-size: 20px;
 }
-#ThreeBlocks {
+.ThreeBlocks {
    display: flex;
 	justify-content: space-between;
 	margin-left: 5px;
@@ -154,7 +156,7 @@ text-decoration: none;
 	display: flex;
 	justify-content: flex-start;
 }
-#ThreeBlocks article {
+.ThreeBlocks article {
 		margin-left: 15px;
 	margin-right: 15px;
 	}
@@ -165,7 +167,7 @@ text-decoration: none;
 .innerBlockFlex h3 {
 	margin-left: 10px;
 }
-#FourArticles {
+.FourArticles {
   display:flex;
   justify-content: space-beetween;
 	margin-bottom: 35px;
