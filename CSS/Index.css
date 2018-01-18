@@ -179,7 +179,7 @@ text-decoration: none;
 }
 .moreSmall {
   text-decoration: none;
-  color: orange;
+  color: #dd8f00;
   float: right;
   font-size: 20px;
 	
@@ -227,6 +227,7 @@ background: #4a4a4a;
 	margin-bottom: 20px;
 	font-size: 20px;
 	margin-right: 20px;
+	outline: none;
 }
 .submit {
 	background: #4a4a4a;
@@ -238,4 +239,5 @@ background: #4a4a4a;
 	border-color: #4a4a4a;
 	margin-bottom: 20px;
 	font-size: 20px;
+	outline: none;
 }
