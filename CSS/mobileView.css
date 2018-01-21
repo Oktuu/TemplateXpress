@@ -360,9 +360,11 @@
 }
 @media screen and (max-width:374px) {
 	.hugeArticle {
-	height: 200px;
+		margin-top: 10px;
+	height: 140px;
 	}
 	.hugeArticleText {
+		height: 150px;
 		font-size: 6px;
 	}
 	.hugeArticleText a {
@@ -380,12 +382,15 @@
 	}
 }
 @media screen and (max-width:360px) {
+	.mainBaner {
+		height: 70px;
+	}
 	.Xpression {
 		margin-right: 5px;
 		}
     .mainBanerImg img {
 		width: 200px;
-		height: 45px;
+		height: 35px;
 	}
 }
 @media screen and (max-width:340px) {
